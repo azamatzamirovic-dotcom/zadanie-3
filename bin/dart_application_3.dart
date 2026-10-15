@@ -107,7 +107,7 @@ void main() {
   int totalPieces = 8;
   for (int i = 1; i <= 8; i++) {
     totalPieces = totalPieces - 1;
-    print('Я съел кусочек номер $i. Осталось кусочков: $totalPieces');
+    print('Я съел кусочек номер $i. Осталось: $totalPieces');
   }
 }
 
